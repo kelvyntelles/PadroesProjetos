@@ -8,7 +8,6 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 class TimeTest {
-
     @Test
     void deveRetornarJogadores() {
         Time time = new Time();
@@ -33,6 +32,4 @@ class TimeTest {
 
         assertEquals(3, ContratoFactory.getTotalContratos());
     }
-
-
 }
